@@ -162,7 +162,7 @@ if st.session_state.sys_msg:
 
 st.subheader("📋 填寫訂單")
 
-st.text_input("姓名* ", key="student_name", max_chars=3, placeholder="例如：徐明龍")
+st.text_input("姓名* ", key="student_name", max_chars=10, placeholder="例如：徐明龍大帥哥")
 
 st.markdown("#### 🍔 套餐區")
 
