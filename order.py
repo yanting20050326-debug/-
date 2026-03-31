@@ -6,7 +6,7 @@ SYSTEM_OPEN = False
 
 if not SYSTEM_OPEN:
     st.error("🛑 訂購已截止！感謝大家的參與。")
-    st.info("系統目前僅供瀏覽，已不再接收新訂單。如有緊急更正需求，請直接聯繫主揪。")
+    st.info("系統目前僅供瀏覽，已不再接收新訂單。")
     
     # 這裡可以選擇要不要顯示原本的菜單資訊供參考，但把 input 元件拿掉
     st.markdown("#### 🍔 菜單參考")
